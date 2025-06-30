@@ -6,7 +6,7 @@ title: Home
 Welcome! I’m a math PhD student at UC Santa Barbara.  
 I work on problems in **optimal transport** and **gradient flows**.
 
-[About Me](/about/) • [Seminar Schedule](/seminar/) • [Blog](/blog/)
+[About Me]({{"/about/"|relative-url}}) • [Seminar Schedule]({{"/seminar/"|relative-url}}) • [Blog]({{"/blog/"|relative-url}})
 
 <h2>Latest Posts</h2>
 <ul>

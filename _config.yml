@@ -1,6 +1,6 @@
 title: Connor Marrs
 email: your-email@ucsb.edu
-baseurl: ""
+baseurl: "/academic-website"
 url: "https://connormarrs.github.io"
 
 theme: jekyll-theme-minimal

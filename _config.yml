@@ -7,10 +7,3 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "page"

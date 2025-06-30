@@ -1,16 +1,26 @@
-title: Connor Marrs
-email: your-email@ucsb.edu
-baseurl: ""
-url: "https://connormarrs.github.io"
+# Site settings
+title: "Connor Marrs"
+description: "Mathematics Graduate Student at UC Santa Barbara"
 
-theme: minima
+# Remote theme instead of local gems
+remote_theme: jekyll/minima
+
+# Plugins
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "page"
+# URL and baseurl
+url: "https://connormarrs.github.io"
+baseurl: "/academic-website" # IMPORTANT for project sites!
+
+# Markdown settings for math
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+
+# Optional social links
+github_username: connormarrs
+

@@ -1,0 +1,10 @@
+title: "Connor Marrs"
+description: "Mathematics Graduate Student at UC Santa Barbara"
+baseurl: ""
+url: "https://connormarrs.github.io"
+theme: minima
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  input: GFM
+github_username: connormarrs

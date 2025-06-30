@@ -1,25 +1,21 @@
-# Site settings
 title: "Connor Marrs"
 description: "Mathematics Graduate Student at UC Santa Barbara"
 
-# Remote theme instead of local gems
+# Enable remote theme
 remote_theme: jekyll/minima
 
-# Plugins
+# REQUIRED: load the remote theme plugin
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
-# URL and baseurl
 url: "https://connormarrs.github.io"
-baseurl: "/academic-website" # IMPORTANT for project sites!
+baseurl: "/academic-website"
 
-# Markdown settings for math
 markdown: kramdown
 kramdown:
   input: GFM
   math_engine: mathjax
 
-# Optional social links
 github_username: connormarrs

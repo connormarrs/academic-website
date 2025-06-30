@@ -3,7 +3,7 @@ email: your-email@ucsb.edu
 baseurl: ""
 url: "https://connormarrs.github.io"
 
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
